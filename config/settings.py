@@ -130,3 +130,10 @@ USE_TZ = True
 STATIC_URL = "static/"
 
 DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
+
+
+SPECTACULAR_SETTINGS = {
+    "TITLE": "Library Management API",
+    "DESCRIPTION": "A professional REST API for managing books, users and borrowing operations.",
+    "VERSION": "1.0.0",
+}
